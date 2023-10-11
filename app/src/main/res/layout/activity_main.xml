@@ -52,10 +52,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Qualidade de serviço"
+            android:text="Qualidade de serviço:"
             android:textSize="30sp">
-
         </TextView>
+
+        <Spinner
+            android:id="@+id/spinnerqs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
 
     </LinearLayout>
