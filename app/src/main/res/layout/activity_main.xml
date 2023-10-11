@@ -34,8 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Valor da conta:"
-            android:textSize="30sp"
-            >
+            android:textSize="30sp">
 
         </TextView>
 
@@ -47,10 +46,16 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                />
+                android:layout_height="wrap_content" />
 
         </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qualidade de serviço"
+            android:textSize="30sp">
+
+        </TextView>
 
 
     </LinearLayout>
